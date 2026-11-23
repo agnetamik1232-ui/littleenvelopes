@@ -37,6 +37,9 @@ function demoExtras() {
   if (open === "card") fire("story-card");
   if (open === "ch-new") fire("ch-new");
   if (open === "env-new") fire("env-new");
+  if (open === "cardonly") import("./card.js").then(async ({ storyCard }) => { const { periodOf } = await import("./calc.js"); const blob = await storyCard(app.S, periodOf(app.S.pay, app.today)); document.body.style.margin = "0"; document.body.innerHTML = `<img src="${URL.createObjectURL(blob)}" alt="" style="display:block;width:1080px;height:1920px">`; });
+  const to = params.get("scrollto");   // e.g. &scrollto=.side : scroll so that part is at the top (phone photos)
+  if (to) setTimeout(() => { const el = document.querySelector(to); if (el) scrollTo(0, el.getBoundingClientRect().top + scrollY - 70); }, 80);
   if (params.get("amount")) setTimeout(() => { const i = document.querySelector('#sheet-root input[name="amount"]'); if (i) { i.value = params.get("amount"); i.blur(); } }, 60);
 }
 

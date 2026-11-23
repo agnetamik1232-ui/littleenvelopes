@@ -1,5 +1,5 @@
 // Little Envelopes — keeps the app working offline, and quietly picks up updates in the background.
-const VERSION = "littleenvelopes-1.0.0";
+const VERSION = "littleenvelopes-1.0.1";
 const FONTS = "littleenvelopes-fonts";
 const FILES = [
   "./", "index.html", "manifest.webmanifest", "css/looks.css", "css/app.css",
