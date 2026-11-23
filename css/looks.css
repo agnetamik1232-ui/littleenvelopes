@@ -1,0 +1,49 @@
+/* Little Envelopes — the four binders, each with a dark version. Colours follow the Dear Agneta looks (Sweet Spot). */
+:root, [data-look="strawberry"] {
+  --page:#FFFCFA; --card:#FFFFFF; --ink:#3B2129; --plum:#7A3B52; --rose:#C24D75; --body:#6B4A57; --mute:#8A6B75; --rule:#EEDDE1; --hair:#F5EAEC; --petal:#FBE4EA;
+  --leather:#E7B3C1; --coverink:#4E1F31; --stitch:rgba(255,246,248,.7); --gold:#B8935A; --goldl:#E4CB95; --goldd:#8E6A36; --m1:#F3E1B3; --m2:#C9A462; --m3:#8E6A36;
+  --note:#FFF8EE; --k2:#E79BB2; --envbg:#FFFEFC; --envrule:#EBD9DD; --liningbg:#FFF5F7; --lining:rgba(236,128,160,.26); --lblbg:#FFFDF8; --kind:#A8506D; --zero:#B79AA3;
+  --done:#F7DCE4; --btntext:#FFF6F8; --holebg:#EADBD8; --good:#4E7A57; --sh:78,31,49; --tartan:0;
+}
+[data-look="blueberry"] {
+  --page:#FDFBF6; --card:#FFFFFF; --ink:#262B4A; --plum:#3E4A86; --rose:#4A5BA8; --body:#4F5370; --mute:#6A6880; --rule:#E3DFD3; --hair:#ECEAE2; --petal:#E6EAF7;
+  --leather:#9CB4DD; --coverink:#1F2444; --stitch:rgba(255,255,255,.7); --gold:#9AA3BC; --goldl:#D3D8E3; --goldd:#5F6780; --m1:#FAFBFD; --m2:#BCC2CF; --m3:#7B8395;
+  --note:#F7F8FC; --k2:#B3C0E6; --envbg:#FFFFFF; --envrule:#E1E3EE; --liningbg:#F7F8FD; --lining:rgba(91,109,179,.22); --lblbg:#FFFFFF; --kind:#4A5BA8; --zero:#A9ADC4;
+  --done:#E3E8F8; --btntext:#FFFFFF; --holebg:#E2E2EA; --good:#4E7A57; --sh:38,43,74;
+}
+[data-look="matcha"] {
+  --page:#F9F8F1; --card:#FFFEFA; --ink:#1F2A1F; --plum:#3F5A36; --rose:#55743A; --body:#545A48; --mute:#6A6B59; --rule:#E3E1D3; --hair:#ECEADD; --petal:#E8EFDB;
+  --leather:#B5C79A; --coverink:#1F2A1F; --stitch:rgba(255,255,248,.7); --gold:#B8935A; --goldl:#E4CB95; --goldd:#7C5E2C; --m1:#F3E1B3; --m2:#C9A462; --m3:#8E6A36;
+  --note:#FFFBEF; --k2:#C3D7A4; --envbg:#FFFEF9; --envrule:#E2E4D6; --liningbg:#F8FAF2; --lining:rgba(127,163,91,.24); --lblbg:#FFFEF8; --kind:#55743A; --zero:#AEB39C;
+  --done:#E8F0DA; --btntext:#FFFFFF; --holebg:#E4E3D6; --good:#4E7A57; --sh:31,42,31;
+}
+[data-look="academia"] {
+  --page:#F7F2E8; --card:#FFFCF6; --ink:#2A1F1A; --plum:#4A3428; --rose:#8C2F39; --body:#5E5247; --mute:#706458; --rule:#E4DACB; --hair:#ECE4D6; --petal:#EFE2D6;
+  --leather:#7C2F38; --coverink:#F4E7D8; --stitch:rgba(244,231,216,.45); --gold:#B08A3E; --goldl:#E2CC98; --goldd:#74551F; --m1:#EFD9A6; --m2:#B68C45; --m3:#74551F;
+  --note:#FFF9EC; --k2:#D9AFA8; --envbg:#FFFCF5; --envrule:#E6DCCC; --liningbg:#F4EBDD; --lining:rgba(140,47,57,.2); --lblbg:#FFFCF4; --kind:#8C2F39; --zero:#B4A796;
+  --done:#F1E3DD; --btntext:#FFFFFF; --holebg:#E6DCCB; --good:#4E7A57; --sh:42,31,26; --tartan:1;
+}
+[data-dark][data-look="strawberry"], [data-dark]:not([data-look]) {
+  --page:#17141A; --card:#211D24; --ink:#F2E9EE; --plum:#FF85A6; --rose:#FF9DB7; --body:#CDBEC6; --mute:#ADA0A8; --rule:#352E38; --hair:#2E2832; --petal:#3A2A33;
+  --leather:#4A2433; --coverink:#FFD6E1; --stitch:rgba(255,214,225,.35); --gold:#D9B77E; --goldl:#8C7046; --goldd:#E6C98F;
+  --note:#27212A; --k2:#FFB8CB; --envbg:#211D24; --envrule:#3A3140; --liningbg:#2A2028; --lining:rgba(255,133,166,.2); --lblbg:#1C181E; --kind:#FF9DB7; --zero:#6F6169;
+  --done:#3B1E28; --btntext:#17141A; --holebg:#0F0D11; --good:#8FC4A0; --sh:0,0,0;
+}
+[data-dark][data-look="blueberry"] {
+  --page:#14161F; --card:#1C1F2B; --ink:#ECEEF7; --plum:#A2AFEA; --rose:#B3BEEF; --body:#C2C6D8; --mute:#9DA1B5; --rule:#2D3142; --hair:#252837; --petal:#262B3D;
+  --leather:#2B3253; --coverink:#D5DCF5; --stitch:rgba(213,220,245,.3); --gold:#B9C0D3; --goldl:#5F677D; --goldd:#D5DAE6;
+  --note:#232736; --k2:#C6CEF3; --envbg:#1C1F2B; --envrule:#313649; --liningbg:#22263A; --lining:rgba(162,175,234,.18); --lblbg:#181B26; --kind:#B3BEEF; --zero:#5F6478;
+  --done:#2A3157; --btntext:#14161F; --holebg:#0C0D13; --good:#8FC4A0; --sh:0,0,0;
+}
+[data-dark][data-look="matcha"] {
+  --page:#141712; --card:#1C2019; --ink:#EEF1E6; --plum:#AECB8A; --rose:#BCD69C; --body:#C6CBB8; --mute:#9EA592; --rule:#2E3329; --hair:#252A21; --petal:#283024;
+  --leather:#2E3A26; --coverink:#DCE8C8; --stitch:rgba(220,232,200,.3); --gold:#C9AE6A; --goldl:#6B5D36; --goldd:#E0C887;
+  --note:#23271E; --k2:#D2E2B9; --envbg:#1C2019; --envrule:#333A2D; --liningbg:#222A1D; --lining:rgba(174,203,138,.18); --lblbg:#181B16; --kind:#BCD69C; --zero:#616857;
+  --done:#2F3D24; --btntext:#141712; --holebg:#0B0C0A; --good:#A8D0A0; --sh:0,0,0;
+}
+[data-dark][data-look="academia"] {
+  --page:#1A1613; --card:#241E1A; --ink:#F2E9E1; --plum:#DE8B93; --rose:#E7A0A7; --body:#CFC2B5; --mute:#A89C8E; --rule:#3A322C; --hair:#2F2924; --petal:#352B26;
+  --leather:#3F1A1F; --coverink:#EDCFC6; --stitch:rgba(237,207,198,.3); --gold:#C9A15A; --goldl:#7A6233; --goldd:#E2C083;
+  --note:#2A231E; --k2:#EDCFC6; --envbg:#241E1A; --envrule:#3D342D; --liningbg:#2C2420; --lining:rgba(196,84,95,.22); --lblbg:#1F1A17; --kind:#E7A0A7; --zero:#74685D;
+  --done:#4A2328; --btntext:#1A1613; --holebg:#110E0C; --good:#8FC4A0; --sh:0,0,0;
+}
