@@ -4,7 +4,7 @@ import { app, esc, fd, fdShort, fdLong, fMonthShort, fmtR } from "./core.js";
 import { ic, m, mr, cur, brand, ring, rangeText, envCard } from "./ui.js";
 import { CURRENCIES } from "./model.js";
 
-export const ETSY_URL = "https://dearagneta.etsy.com";
+export const ETSY_URL = "https://www.etsy.com/listing/4624144666";
 export const APP_VERSION = "1.0.0";
 export const LOOKS = { strawberry: ["Strawberry", "#E7B3C1", "#C9A462"], blueberry: ["Blueberry", "#9CB4DD", "#BCC2CF"], matcha: ["Matcha", "#B5C79A", "#C9A462"], academia: ["Academia", "#7C2F38", "#B68C45"] };
 const NAV = [["binder", "Binder", "binder"], ["stuff", "Stuff payday", "env"], ["funds", "Sinking funds", "jar"], ["challenges", "Challenges", "grid"], ["year", "Year", "year"], ["settings", "Settings", "sliders"]];
